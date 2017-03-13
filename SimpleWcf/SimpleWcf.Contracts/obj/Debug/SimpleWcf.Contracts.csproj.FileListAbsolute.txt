@@ -1,0 +1,5 @@
+D:\Code\C#\SimpleWcf\SimpleWcf.Contracts\bin\Debug\SimpleWcf.Contracts.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Contracts\bin\Debug\SimpleWcf.Contracts.pdb
+D:\Code\C#\SimpleWcf\SimpleWcf.Contracts\obj\Debug\SimpleWcf.Contracts.csprojResolveAssemblyReference.cache
+D:\Code\C#\SimpleWcf\SimpleWcf.Contracts\obj\Debug\SimpleWcf.Contracts.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Contracts\obj\Debug\SimpleWcf.Contracts.pdb

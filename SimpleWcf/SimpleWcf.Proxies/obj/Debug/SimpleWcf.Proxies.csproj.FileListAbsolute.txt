@@ -1,0 +1,7 @@
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\bin\Debug\SimpleWcf.Proxies.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\bin\Debug\SimpleWcf.Proxies.pdb
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\bin\Debug\SimpleWcf.Contracts.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\bin\Debug\SimpleWcf.Contracts.pdb
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\obj\Debug\SimpleWcf.Proxies.csprojResolveAssemblyReference.cache
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\obj\Debug\SimpleWcf.Proxies.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Proxies\obj\Debug\SimpleWcf.Proxies.pdb

@@ -1,0 +1,5 @@
+D:\Code\C#\SimpleWcf\SimpleWcf.Core\bin\Debug\SimpleWcf.Core.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Core\bin\Debug\SimpleWcf.Core.pdb
+D:\Code\C#\SimpleWcf\SimpleWcf.Core\obj\Debug\SimpleWcf.Core.csprojResolveAssemblyReference.cache
+D:\Code\C#\SimpleWcf\SimpleWcf.Core\obj\Debug\SimpleWcf.Core.dll
+D:\Code\C#\SimpleWcf\SimpleWcf.Core\obj\Debug\SimpleWcf.Core.pdb
