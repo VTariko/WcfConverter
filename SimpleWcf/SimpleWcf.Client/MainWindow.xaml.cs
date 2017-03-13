@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
@@ -16,7 +17,6 @@ namespace SimpleWcf.Client
 		public MainWindow()
 		{
 			InitializeComponent();
-			//tbCurrencyFrom.Text = "0";
 			BindComboBoxes();
 		}
 
@@ -44,7 +44,6 @@ namespace SimpleWcf.Client
 			}
 		}
 
-
 		private void OnTextChanged(object sender, TextChangedEventArgs e)
 		{
 			decimal value;
@@ -55,7 +54,7 @@ namespace SimpleWcf.Client
 			}
 			else
 			{
-				MessageBox.Show("непредвиденная ошибка!", "Внимание!", MessageBoxButton.OK, MessageBoxImage.Error);
+				MessageBox.Show("Непредвиденная ошибка!", "Внимание!", MessageBoxButton.OK, MessageBoxImage.Error);
 			}
 		}
 
@@ -67,8 +66,8 @@ namespace SimpleWcf.Client
 				string currencyCodeTo = ((CurrencyData)cbCurrencyTo.SelectedItem).CurrencyCode;
 
 				ConverterValueData res = client.ConvertValue(currencyCodeFrom, currencyCodeTo, value);
-				tbCurrencyTo.Text = res.ConvertResult.ToString();
-				tbCourse.Text = res.ConvertCource.ToString();
+				tbCurrencyTo.Text = res.ConvertResult.ToString(CultureInfo.CurrentCulture);
+				tbCourse.Text = res.ConvertCource.ToString(CultureInfo.CurrentCulture);
 			}
 		}
 
